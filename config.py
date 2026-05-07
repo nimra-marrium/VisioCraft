@@ -37,7 +37,7 @@ INPAINT_RADIUS = 5
 PATCH_SIZE = 7
 
 # ── Object Extraction Settings ──────────────────────────────────────────────
-MASK_PADDING = 10
+MASK_PADDING = 20
 MIN_MASK_SIZE = 100
 TRANSPARENCY_THRESHOLD = 0.5
 

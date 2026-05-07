@@ -7,7 +7,6 @@ from PIL import Image
 import cv2
 import os
 from .inpaint_utils import blend_edges, match_colors, remove_artifacts  # Keep your helpers
-
 class SDInpaint:
     def __init__(self):
         print("Loading Flux.1-schnell for inpainting (CPU mode)...")

@@ -8,6 +8,9 @@ from pathlib import Path
 
 import config
 
+logging.getLogger("filelock").setLevel(logging.WARNING)
+logging.getLogger("huggingface_hub").setLevel(logging.WARNING)
+
 
 def setup_logging():
     """Configure application-wide logging."""
@@ -34,6 +37,9 @@ def setup_logging():
     root.addHandler(file_handler)
 
     # Suppress noisy third-party loggers
+    werkzeug_log = logging.getLogger('werkzeug')
+    werkzeug_log.setLevel(logging.ERROR)
+    werkzeug_log.disabled = True
     logging.getLogger('werkzeug').setLevel(logging.WARNING)
     logging.getLogger('urllib3').setLevel(logging.WARNING)
     logging.getLogger('PIL').setLevel(logging.WARNING)
