@@ -4,7 +4,7 @@
 
 ---
 
-## 🚀 Features
+##  Features
 - **Object Extraction:** Auto-segment objects easily using Mobile SAM and GrabCut.
 - **Context-Aware Inpainting:** Fill backgrounds effortlessly with methods like Stable Diffusion and OpenCV fast inpainting.
 - **Image Generation:** Enhance and generate elements dynamically.
@@ -13,7 +13,7 @@
 
 ---
 
-## 🛠️ Project Architecture
+##  Project Architecture
 
 VisioCraft has been refactored into a clean, modular architecture to ensure scalability and maintainability.
 
@@ -37,7 +37,7 @@ VisioCraft/
 
 ---
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
 ### 1. Install Dependencies
 Make sure you have Python 3.8+ installed.
@@ -78,7 +78,7 @@ Open your modern web browser (Chrome recommended) and navigate to `http://localh
 
 ---
 
-## 🖼️ Usage Workflow
+##  Usage Workflow
 1. **Upload:** Start by uploading an image.
 2. **Segment & Extract:** Use the AI tools to click/drag around the subject to auto-segment it, extracting it with a transparent background.
 3. **Inpaint:** Remove the object from the background using context-aware fill methods.
@@ -87,7 +87,7 @@ Open your modern web browser (Chrome recommended) and navigate to `http://localh
 
 ---
 
-## 🧠 Inpainting & AI Methods
+##  Inpainting & AI Methods
 
 | Method | Description | Characteristics |
 |--------|-------------|-----------------|
@@ -98,6 +98,6 @@ Open your modern web browser (Chrome recommended) and navigate to `http://localh
 
 ---
 
-## 🛡️ Security Best Practices
+##  Security Best Practices
 - Model files, caches, and uploaded media are ignored via `.gitignore`.
 - Avoid hardcoding secrets in `config.py`. Always rely on environment variables (`.env` or system variables) for sensitive tokens (e.g., `HUGGINGFACE_TOKEN`, `STABILITY_API_KEY`).
