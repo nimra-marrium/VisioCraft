@@ -1,5 +1,4 @@
 # VisioCraft AI
-
 **VisioCraft AI** is an advanced, AI-powered application for object extraction, context-aware background fill, and seamless image composition. It leverages state-of-the-art models for segmentation, detection, and generative inpainting.
 
 ---
@@ -14,7 +13,6 @@
 ---
 
 ##  Project Architecture
-
 VisioCraft has been refactored into a clean, modular architecture to ensure scalability and maintainability.
 
 ```text
@@ -38,7 +36,6 @@ VisioCraft/
 ---
 
 ##  Setup Instructions
-
 ### 1. Install Dependencies
 Make sure you have Python 3.8+ installed.
 
@@ -88,7 +85,6 @@ Open your modern web browser (Chrome recommended) and navigate to `http://localh
 ---
 
 ##  Inpainting & AI Methods
-
 | Method | Description | Characteristics |
 |--------|-------------|-----------------|
 | **Stable Diffusion** | Cloud/API-based generation | ⭐ Best Quality, Highly context-aware |
